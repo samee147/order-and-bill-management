@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="menu.css"/>
+</head>
+<body>
+    <h1>Restaurant Order Form</h1>
+
+    <form id="orderForm">
+        <div id="info">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="number" id="table" placeholder="Table Number" required>
+        </div>
+        <div class="menu">
+            <h3>Menu</h3>
+            <div class="menu-item">
+                <span class="labelname">
+                    <label>
+                        <input type="checkbox" id="pizza" name="menu" value="Pizza">
+                        Pizza
+                    </label>
+                </span>
+                <span class="price">300 Rs</span>
+            </div>
+            <div class="menu-item">
+                <span class="labelname">
+                    <label>
+                        <input type="checkbox" id="burger" name="menu" value="Burger">
+                        Burger
+                    </label>
+                </span>
+                <span class="price">120 Rs</span>
+            </div>
+            <div class="menu-item">
+                <span class="labelname">
+                    <label>
+                        <input type="checkbox" id="pasta" name="menu" value="Pasta">
+                        Pasta
+                    </label>
+                </span>
+                <span class="price">110 Rs</span>
+            </div>
+            <div class="menu-item">
+                <span class="labelname">
+                    <label>
+                        <input type="checkbox" id="salad" name="menu" value="Salad">
+                        Salad
+                    </label>
+                </span>
+                <span class="price">90 Rs</span>
+            </div>
+            <div class="menu-item">
+                <span class="labelname">
+                    <label>
+                        <input type="checkbox" id="icecream" name="menu" value="Ice Cream">
+                        Ice Cream
+                    </label>
+                </span>
+                <span class="price">40 Rs</span>
+            </div>
+            <div class="menu-item">
+                <span class="labelname">
+                    <label>
+                        <input type="checkbox" id="soda" name="menu" value="Soda">
+                        Soda
+                    </label>
+                </span>
+                <span class="price">20 Rs</span>
+
+            </div>
+        </div>
+
+        <button type="submit">Submit Order</button>
+    </form>
+
+
+</body>
+</html>
